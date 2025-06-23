@@ -1,16 +1,6 @@
 # 🔊 Ultrasonic Blind Stick using Raspberry Pi Pico
 
-This project is a simple and effective assistive device for visually impaired individuals, built around the Raspberry Pi Pico (or compatible RP2040-based board like the RP2040-Zero). It uses an ultrasonic distance sensor to detect nearby obstacles and triggers a buzzer and an LED alert when objects are detected within a safe range.
-
----
-
-## 📦 Features
-
-- Distance measurement using HC-SR04
-- Visual (LED) and audio (buzzer) feedback when objects are nearby
-- Compact PCB design suitable for mounting on a walking stick
-- Powered by Raspberry Pi Pico with Micro-USB or USB-C
-
+This project is for visually impaired people, if an object comes under 25cm of the HC-SR04 Sensor, a buzzer rings.
 ---
 
 ## 🧠 How It Works
@@ -18,7 +8,6 @@ This project is a simple and effective assistive device for visually impaired in
 The HC-SR04 sensor continuously measures distance. If the measured distance is below a preset threshold (e.g., 25 cm), it activates:
 
 - A buzzer (audio alert)
-- An LED (visual cue)
 
 All components are mounted on a compact custom PCB connected to the Raspberry Pi Pico.
 
@@ -64,17 +53,7 @@ All components are mounted on a compact custom PCB connected to the Raspberry Pi
 - `gerbers/` – Gerber and drill files ready for fabrication
 - `images/` – All rendered images and screenshots
 - `README.md` – This file
+- `model.STEP` - CAD file for the enclosure of PCB
 
----
-
-## 🤝 Credits
-
-Designed with [KiCad](https://kicad.org/)  
-Made as part of Hack Club's #highway program  
-
----
-
-## 🧵 Author
-
-**Your Name**  
+## Made for HackClub's Highway Program
 Slack: `@DevaanshPathak`
