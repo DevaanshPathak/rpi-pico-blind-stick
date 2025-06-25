@@ -13,6 +13,17 @@ All components are mounted on a compact custom PCB connected to the Raspberry Pi
 
 ---
 
+## Bill Of Materials
+
+| Reference | Qty | Value               |
+|-----------|-----|---------------------|
+| A1        | 1   | RaspberryPi_Pico    |
+| BZ1       | 1   | Buzzer              |
+| J1        | 1   | HC-SR04             |
+| NIL       | 1   | Normal Walking Stick|
+
+
+---
 ## 📐 Schematic
 
 ![Schematic Diagram](https://hc-cdn.hel1.your-objectstorage.com/s/v3/fe3a28b8bb1ab81fd0af61cd3ecb6ae6f97b7743_screenshot_2025-06-22_185549.png)
